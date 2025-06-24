@@ -29,7 +29,21 @@ A Flask REST API to manage assets with service and expiration timings.
 
 ## 📌 Setup Instructions
 
-### 1️⃣ Clone the repo
+### 1️⃣ Clone the repo and set up the environment
+
 ```bash
 git clone https://github.com/your-username/your-repo-name.git
 cd your-repo-name
+
+python -m venv venv
+venv\Scripts\activate  # On Windows
+# or
+source venv/bin/activate  # On Mac/Linux
+
+pip install -r requirements.txt
+
+python app.py
+
+pip install -r requirements.txt
+
+python app.py
